@@ -1,0 +1,101 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Administrator DashBoard</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.6 -->
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link href="css/AdminLTE.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="css/skins/_all-skins.min.css" rel="stylesheet" />
+    <link href="lib/toastr/toastr.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="lib/angular-material/angular-material.css" />
+
+    <link href="css/smartTable.css" rel="stylesheet" />
+
+    <link href="lib/nvd3/build/nv.d3.css" rel="stylesheet" />
+
+    <link href="lib/angular-material-datetimepicker/css/material-datetimepicker.css" />
+
+    <link href="lib/angular-xeditable/dist/css/xeditable.css" />
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini" ng-app="company" ng-cloak>
+
+    <div ui-view></div>
+
+    <!-- jQuery 2.2.3 -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- SlimScroll -->
+    <script src="lib/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="lib/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="js/app.min.js"></script>
+    <!--NVD3 Chart || NOT USED, REPLACED BY NVD3 Chart from BOWER-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-nvd3/1.0.9/angular-nvd3.min.js"></script>-->
+    <script src="lib/d3/d3.js"></script>
+    <script src="lib/nvd3/build/nv.d3.js"></script>
+
+    <!--Begin Embed AngularJS-->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="lib/angular-aria/angular-aria.js"></script>
+    <script src="lib/angular-messages/angular-messages.js"></script>
+    <script src="lib/angular-material/angular-material.js"></script>
+
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/toastr/toastr.js"></script>
+    <script src="lib/bootbox/bootbox.js"></script>
+    <script src="lib/ngBootbox/ngBootbox.js"></script>
+    <script src="lib/moment/moment.js"></script>
+    <script src="lib/angular-moment/angular-moment.js"></script>
+    <script src="lib/angular-material-datetimepicker/js/angular-material-datetimepicker.js"></script>
+
+    <script src="lib/angular-smart-table/dist/smart-table.js"></script>
+    <script src="lib/angular-xeditable/dist/js/xeditable.js"></script>
+    <script src="lib/angular-uuid2/dist/angular-uuid2.js"></script>
+
+    <script src="app/shared/modules/company.common.js"></script>
+    <script src="app/shared/services/constantService.js"></script>
+
+    <script src="app/shared/services/apiService.js"></script>
+    <script src="app/shared/services/notificationService.js"></script>
+
+    <script src="app/app.js"></script>
+
+    <script src="app/components/home/home.module.js"></script>
+    <script src="app/components/home/homeController.js"></script>
+
+    <script src="app/components/staff/staff.module.js"></script>
+    <script src="app/components/staff/staffListView.js"></script>
+    <script src="app/components/staff/staffAddView.js"></script>
+    <script src="app/components/staff/staffEditView.js"></script>
+
+    <script src="app/components/department/department.module.js"></script>
+    <script src="app/components/department/departmentListView.js"></script>
+    <script src="app/components/department/departmentAddView.js"></script>
+    <script src="app/components/department/departmentEditView.js"></script>
+
+    <script src="app/components/dashboard/overview.module.js"></script>
+    <script src="app/components/dashboard/overview.js"></script>
+</body>
+</html>

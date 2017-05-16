@@ -1,0 +1,53 @@
+﻿<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Add New Staff
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i>Dash Board</a></li>
+        <li><a ui-sref="staff">Staff</a></li>
+        <li class="active">Add Staff</li>
+    </ol>
+</section>
+
+<!--Main Content-->
+<section class="content">
+    <!--Horizontal Form-->
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Add Staff</h3>
+        </div>
+        <!--Form Start-->
+        <form class="form-horizontal" novalidate name="frmAddStaff" role="form" ng-submit="AddStaff()">
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputFirstName" class="col-sm-2 control-label">First Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="firstName" ng-maxlength="20" required ng-model="staff.FirstName" />
+                        <span ng-show="frmAddStaff.firstName.$touched && frmAddStaff.firstName.$invalid" class="has-error">This field is required</span>
+                        <span ng-show="frmAddStaff.firstName.$error.maxlength" class="has-error">No more than 20 characters</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputLastName" class="col-sm-2 control-label">Last Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="lastName" ng-maxlength="20" required ng-model="staff.LastName" />
+                        <span ng-show="frmAddStaff.lastName.$touched && frmAddStaff.lastName.$invalid" class="has-error">This field is required</span>
+                        <span ng-show="frmAddStaff.lastName.$error.maxlength" class="has-error">No more than 20 characters</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputDepartment" class="col-sm-2 control-label">Department</label>
+                    <div class="col-sm-10">
+                        <select name="departmentId" class="form-control" ng-model="staff.departmentId" ng-options="department.id as department.name for department in departments"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-footer">
+                <button ui-sref="staff" type="submit" class="btn btn-default">Cancel</button>
+                <button type="submit" ng-disabled="frmAddStaff.$invalid" class="btn btn-success pull-right">Save </button>
+            </div>
+        </form>
+    </div>
+</section>

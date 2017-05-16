@@ -1,0 +1,18 @@
+{
+  "name": "simple-pos.web",
+  "version": "0.0.0",
+  "description": "SimplePOS.Web",
+  "main": "server.js",
+  "author": {
+    "name": "robby_m"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
+  }
+}

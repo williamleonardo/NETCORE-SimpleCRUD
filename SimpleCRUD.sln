@@ -1,0 +1,234 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleCRUD.Service", "SimpleCRUD.Service\SimpleCRUD.Service.xproj", "{D4282DB2-4CDB-4F46-899C-C9B484F9C5D0}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleWebAPI", "SimpleWebAPI\SimpleWebAPI.xproj", "{1A180F46-3DD9-4640-8ED1-38866F8D3829}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleCRUD.Data", "SimpleCRUD.Data\SimpleCRUD.Data.xproj", "{B29EEED7-EE42-4336-AFD7-B395E4C05277}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleCRUD.Web", "SimpleCRUD.Web", "{DB06DF86-C83B-491B-B2A0-80EE724B8A48}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\.bowerrc = SimpleCRUD.Web\.bowerrc
+		SimpleCRUD.Web\.dockerignore = SimpleCRUD.Web\.dockerignore
+		SimpleCRUD.Web\bower.json = SimpleCRUD.Web\bower.json
+		SimpleCRUD.Web\DockerFile = SimpleCRUD.Web\DockerFile
+		SimpleCRUD.Web\package.json = SimpleCRUD.Web\package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{127069B4-A1DC-4C19-B965-1E286FE2BC6E}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\favicon.ico = SimpleCRUD.Web\client\favicon.ico
+		SimpleCRUD.Web\client\index.html = SimpleCRUD.Web\client\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{598F0271-A13A-4142-8CA4-4B9FAB1A40B8}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\server\app.js = SimpleCRUD.Web\server\app.js
+		SimpleCRUD.Web\server\routes.js = SimpleCRUD.Web\server\routes.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{DA54B370-976C-411D-9839-039FCA11255B}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\app\app.js = SimpleCRUD.Web\client\app\app.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{D19AB2AA-2A8A-4507-9D18-BE6B291089C1}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\css\AdminLTE.css = SimpleCRUD.Web\client\css\AdminLTE.css
+		SimpleCRUD.Web\client\css\AdminLTE.min.css = SimpleCRUD.Web\client\css\AdminLTE.min.css
+		SimpleCRUD.Web\client\css\custom.css = SimpleCRUD.Web\client\css\custom.css
+		SimpleCRUD.Web\client\css\site.css = SimpleCRUD.Web\client\css\site.css
+		SimpleCRUD.Web\client\css\site.min.css = SimpleCRUD.Web\client\css\site.min.css
+		SimpleCRUD.Web\client\css\smartTable.css = SimpleCRUD.Web\client\css\smartTable.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{CB515070-7CF4-4F4C-AA76-1B40B5E08D3F}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\images\avatar.png = SimpleCRUD.Web\client\images\avatar.png
+		SimpleCRUD.Web\client\images\avatar04.png = SimpleCRUD.Web\client\images\avatar04.png
+		SimpleCRUD.Web\client\images\avatar2.png = SimpleCRUD.Web\client\images\avatar2.png
+		SimpleCRUD.Web\client\images\avatar3.png = SimpleCRUD.Web\client\images\avatar3.png
+		SimpleCRUD.Web\client\images\avatar5.png = SimpleCRUD.Web\client\images\avatar5.png
+		SimpleCRUD.Web\client\images\banner1.svg = SimpleCRUD.Web\client\images\banner1.svg
+		SimpleCRUD.Web\client\images\banner2.svg = SimpleCRUD.Web\client\images\banner2.svg
+		SimpleCRUD.Web\client\images\banner3.svg = SimpleCRUD.Web\client\images\banner3.svg
+		SimpleCRUD.Web\client\images\banner4.svg = SimpleCRUD.Web\client\images\banner4.svg
+		SimpleCRUD.Web\client\images\boxed-bg.jpg = SimpleCRUD.Web\client\images\boxed-bg.jpg
+		SimpleCRUD.Web\client\images\boxed-bg.png = SimpleCRUD.Web\client\images\boxed-bg.png
+		SimpleCRUD.Web\client\images\default-50x50.gif = SimpleCRUD.Web\client\images\default-50x50.gif
+		SimpleCRUD.Web\client\images\icons.png = SimpleCRUD.Web\client\images\icons.png
+		SimpleCRUD.Web\client\images\photo1.png = SimpleCRUD.Web\client\images\photo1.png
+		SimpleCRUD.Web\client\images\photo2.png = SimpleCRUD.Web\client\images\photo2.png
+		SimpleCRUD.Web\client\images\photo3.jpg = SimpleCRUD.Web\client\images\photo3.jpg
+		SimpleCRUD.Web\client\images\photo4.jpg = SimpleCRUD.Web\client\images\photo4.jpg
+		SimpleCRUD.Web\client\images\user1-128x128.jpg = SimpleCRUD.Web\client\images\user1-128x128.jpg
+		SimpleCRUD.Web\client\images\user2-160x160.jpg = SimpleCRUD.Web\client\images\user2-160x160.jpg
+		SimpleCRUD.Web\client\images\user3-128x128.jpg = SimpleCRUD.Web\client\images\user3-128x128.jpg
+		SimpleCRUD.Web\client\images\user4-128x128.jpg = SimpleCRUD.Web\client\images\user4-128x128.jpg
+		SimpleCRUD.Web\client\images\user5-128x128.jpg = SimpleCRUD.Web\client\images\user5-128x128.jpg
+		SimpleCRUD.Web\client\images\user6-128x128.jpg = SimpleCRUD.Web\client\images\user6-128x128.jpg
+		SimpleCRUD.Web\client\images\user7-128x128.jpg = SimpleCRUD.Web\client\images\user7-128x128.jpg
+		SimpleCRUD.Web\client\images\user8-128x128.jpg = SimpleCRUD.Web\client\images\user8-128x128.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{734C8FB2-A27A-408C-AD43-E3918822CFC6}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\js\app.min.js = SimpleCRUD.Web\client\js\app.min.js
+		SimpleCRUD.Web\client\js\site.js = SimpleCRUD.Web\client\js\site.js
+		SimpleCRUD.Web\client\js\site.min.js = SimpleCRUD.Web\client\js\site.min.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{BD0EE1AA-5AC6-4A9C-9298-52C8B7AF16A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{83FF4515-226F-40D9-AB7C-320E50BEE295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{7A4ABC0C-4A19-4174-92E2-FA0450C4A24F}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\app\shared\modules\company.common.js = SimpleCRUD.Web\client\app\shared\modules\company.common.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{E9124058-8B26-4089-BEF9-08B78C56F557}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\app\shared\services\apiService.js = SimpleCRUD.Web\client\app\shared\services\apiService.js
+		SimpleCRUD.Web\client\app\shared\services\commonService.js = SimpleCRUD.Web\client\app\shared\services\commonService.js
+		SimpleCRUD.Web\client\app\shared\services\constantService.js = SimpleCRUD.Web\client\app\shared\services\constantService.js
+		SimpleCRUD.Web\client\app\shared\services\notificationService.js = SimpleCRUD.Web\client\app\shared\services\notificationService.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{36F2A65D-7C8F-4E3A-BD6F-D78CB7053FF6}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\app\shared\views\baseView.html = SimpleCRUD.Web\client\app\shared\views\baseView.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "staff", "staff", "{399B58A6-B631-49F6-8BD8-3AEF05C67D2B}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\app\components\staff\staff.module.js = SimpleCRUD.Web\client\app\components\staff\staff.module.js
+		SimpleCRUD.Web\client\app\components\staff\staffAddView.html = SimpleCRUD.Web\client\app\components\staff\staffAddView.html
+		SimpleCRUD.Web\client\app\components\staff\staffAddView.js = SimpleCRUD.Web\client\app\components\staff\staffAddView.js
+		SimpleCRUD.Web\client\app\components\staff\staffEditView.html = SimpleCRUD.Web\client\app\components\staff\staffEditView.html
+		SimpleCRUD.Web\client\app\components\staff\staffEditView.js = SimpleCRUD.Web\client\app\components\staff\staffEditView.js
+		SimpleCRUD.Web\client\app\components\staff\staffListView.html = SimpleCRUD.Web\client\app\components\staff\staffListView.html
+		SimpleCRUD.Web\client\app\components\staff\staffListView.js = SimpleCRUD.Web\client\app\components\staff\staffListView.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dashboard", "dashboard", "{B7430CA0-777B-415F-A493-907CB44CED53}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\app\components\dashboard\overview.html = SimpleCRUD.Web\client\app\components\dashboard\overview.html
+		SimpleCRUD.Web\client\app\components\dashboard\overview.js = SimpleCRUD.Web\client\app\components\dashboard\overview.js
+		SimpleCRUD.Web\client\app\components\dashboard\overview.module.js = SimpleCRUD.Web\client\app\components\dashboard\overview.module.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{AC887094-C1D6-47F4-85DA-994598A7BE01}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\app\components\home\home.module.js = SimpleCRUD.Web\client\app\components\home\home.module.js
+		SimpleCRUD.Web\client\app\components\home\homeController.js = SimpleCRUD.Web\client\app\components\home\homeController.js
+		SimpleCRUD.Web\client\app\components\home\homeView.html = SimpleCRUD.Web\client\app\components\home\homeView.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "department", "department", "{99F10BEA-8B09-4FE8-AC97-37B6F74AF0FA}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\app\components\department\department.module.js = SimpleCRUD.Web\client\app\components\department\department.module.js
+		SimpleCRUD.Web\client\app\components\department\departmentAddView.html = SimpleCRUD.Web\client\app\components\department\departmentAddView.html
+		SimpleCRUD.Web\client\app\components\department\departmentAddView.js = SimpleCRUD.Web\client\app\components\department\departmentAddView.js
+		SimpleCRUD.Web\client\app\components\department\departmentEditView.html = SimpleCRUD.Web\client\app\components\department\departmentEditView.html
+		SimpleCRUD.Web\client\app\components\department\departmentEditView.js = SimpleCRUD.Web\client\app\components\department\departmentEditView.js
+		SimpleCRUD.Web\client\app\components\department\departmentListView.html = SimpleCRUD.Web\client\app\components\department\departmentListView.html
+		SimpleCRUD.Web\client\app\components\department\departmentListView.js = SimpleCRUD.Web\client\app\components\department\departmentListView.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "skins", "skins", "{99E99148-0C7C-4F2B-BFF1-C096A7D79523}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\client\css\skins\_all-skins.css = SimpleCRUD.Web\client\css\skins\_all-skins.css
+		SimpleCRUD.Web\client\css\skins\_all-skins.min.css = SimpleCRUD.Web\client\css\skins\_all-skins.min.css
+		SimpleCRUD.Web\client\css\skins\skin-black-light.css = SimpleCRUD.Web\client\css\skins\skin-black-light.css
+		SimpleCRUD.Web\client\css\skins\skin-black-light.min.css = SimpleCRUD.Web\client\css\skins\skin-black-light.min.css
+		SimpleCRUD.Web\client\css\skins\skin-black.css = SimpleCRUD.Web\client\css\skins\skin-black.css
+		SimpleCRUD.Web\client\css\skins\skin-black.min.css = SimpleCRUD.Web\client\css\skins\skin-black.min.css
+		SimpleCRUD.Web\client\css\skins\skin-blue-light.css = SimpleCRUD.Web\client\css\skins\skin-blue-light.css
+		SimpleCRUD.Web\client\css\skins\skin-blue-light.min.css = SimpleCRUD.Web\client\css\skins\skin-blue-light.min.css
+		SimpleCRUD.Web\client\css\skins\skin-blue.css = SimpleCRUD.Web\client\css\skins\skin-blue.css
+		SimpleCRUD.Web\client\css\skins\skin-blue.min.css = SimpleCRUD.Web\client\css\skins\skin-blue.min.css
+		SimpleCRUD.Web\client\css\skins\skin-green-light.css = SimpleCRUD.Web\client\css\skins\skin-green-light.css
+		SimpleCRUD.Web\client\css\skins\skin-green-light.min.css = SimpleCRUD.Web\client\css\skins\skin-green-light.min.css
+		SimpleCRUD.Web\client\css\skins\skin-green.css = SimpleCRUD.Web\client\css\skins\skin-green.css
+		SimpleCRUD.Web\client\css\skins\skin-green.min.css = SimpleCRUD.Web\client\css\skins\skin-green.min.css
+		SimpleCRUD.Web\client\css\skins\skin-purple-light.css = SimpleCRUD.Web\client\css\skins\skin-purple-light.css
+		SimpleCRUD.Web\client\css\skins\skin-purple-light.min.css = SimpleCRUD.Web\client\css\skins\skin-purple-light.min.css
+		SimpleCRUD.Web\client\css\skins\skin-purple.css = SimpleCRUD.Web\client\css\skins\skin-purple.css
+		SimpleCRUD.Web\client\css\skins\skin-purple.min.css = SimpleCRUD.Web\client\css\skins\skin-purple.min.css
+		SimpleCRUD.Web\client\css\skins\skin-red-light.css = SimpleCRUD.Web\client\css\skins\skin-red-light.css
+		SimpleCRUD.Web\client\css\skins\skin-red-light.min.css = SimpleCRUD.Web\client\css\skins\skin-red-light.min.css
+		SimpleCRUD.Web\client\css\skins\skin-red.css = SimpleCRUD.Web\client\css\skins\skin-red.css
+		SimpleCRUD.Web\client\css\skins\skin-red.min.css = SimpleCRUD.Web\client\css\skins\skin-red.min.css
+		SimpleCRUD.Web\client\css\skins\skin-yellow-light.css = SimpleCRUD.Web\client\css\skins\skin-yellow-light.css
+		SimpleCRUD.Web\client\css\skins\skin-yellow-light.min.css = SimpleCRUD.Web\client\css\skins\skin-yellow-light.min.css
+		SimpleCRUD.Web\client\css\skins\skin-yellow.css = SimpleCRUD.Web\client\css\skins\skin-yellow.css
+		SimpleCRUD.Web\client\css\skins\skin-yellow.min.css = SimpleCRUD.Web\client\css\skins\skin-yellow.min.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{0712600A-0655-4F71-8F79-423069DA05D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "errors", "errors", "{4D3B6FDB-F47F-4224-AD5C-1DF2C351196C}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\server\components\errors\index.js = SimpleCRUD.Web\server\components\errors\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{0814EE0E-AB84-4919-A698-8EEF0EAF37C7}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\server\config\express.js = SimpleCRUD.Web\server\config\express.js
+		SimpleCRUD.Web\server\config\index.js = SimpleCRUD.Web\server\config\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{3ACD5389-E3CB-49A9-A7ED-045791CFA8E9}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleCRUD.Web\server\views\404.html = SimpleCRUD.Web\server\views\404.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4282DB2-4CDB-4F46-899C-C9B484F9C5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4282DB2-4CDB-4F46-899C-C9B484F9C5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4282DB2-4CDB-4F46-899C-C9B484F9C5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4282DB2-4CDB-4F46-899C-C9B484F9C5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A180F46-3DD9-4640-8ED1-38866F8D3829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A180F46-3DD9-4640-8ED1-38866F8D3829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A180F46-3DD9-4640-8ED1-38866F8D3829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A180F46-3DD9-4640-8ED1-38866F8D3829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29EEED7-EE42-4336-AFD7-B395E4C05277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29EEED7-EE42-4336-AFD7-B395E4C05277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29EEED7-EE42-4336-AFD7-B395E4C05277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29EEED7-EE42-4336-AFD7-B395E4C05277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{127069B4-A1DC-4C19-B965-1E286FE2BC6E} = {DB06DF86-C83B-491B-B2A0-80EE724B8A48}
+		{598F0271-A13A-4142-8CA4-4B9FAB1A40B8} = {DB06DF86-C83B-491B-B2A0-80EE724B8A48}
+		{DA54B370-976C-411D-9839-039FCA11255B} = {127069B4-A1DC-4C19-B965-1E286FE2BC6E}
+		{D19AB2AA-2A8A-4507-9D18-BE6B291089C1} = {127069B4-A1DC-4C19-B965-1E286FE2BC6E}
+		{CB515070-7CF4-4F4C-AA76-1B40B5E08D3F} = {127069B4-A1DC-4C19-B965-1E286FE2BC6E}
+		{734C8FB2-A27A-408C-AD43-E3918822CFC6} = {127069B4-A1DC-4C19-B965-1E286FE2BC6E}
+		{BD0EE1AA-5AC6-4A9C-9298-52C8B7AF16A2} = {DA54B370-976C-411D-9839-039FCA11255B}
+		{83FF4515-226F-40D9-AB7C-320E50BEE295} = {DA54B370-976C-411D-9839-039FCA11255B}
+		{7A4ABC0C-4A19-4174-92E2-FA0450C4A24F} = {83FF4515-226F-40D9-AB7C-320E50BEE295}
+		{E9124058-8B26-4089-BEF9-08B78C56F557} = {83FF4515-226F-40D9-AB7C-320E50BEE295}
+		{36F2A65D-7C8F-4E3A-BD6F-D78CB7053FF6} = {83FF4515-226F-40D9-AB7C-320E50BEE295}
+		{399B58A6-B631-49F6-8BD8-3AEF05C67D2B} = {BD0EE1AA-5AC6-4A9C-9298-52C8B7AF16A2}
+		{B7430CA0-777B-415F-A493-907CB44CED53} = {BD0EE1AA-5AC6-4A9C-9298-52C8B7AF16A2}
+		{AC887094-C1D6-47F4-85DA-994598A7BE01} = {BD0EE1AA-5AC6-4A9C-9298-52C8B7AF16A2}
+		{99F10BEA-8B09-4FE8-AC97-37B6F74AF0FA} = {BD0EE1AA-5AC6-4A9C-9298-52C8B7AF16A2}
+		{99E99148-0C7C-4F2B-BFF1-C096A7D79523} = {D19AB2AA-2A8A-4507-9D18-BE6B291089C1}
+		{0712600A-0655-4F71-8F79-423069DA05D5} = {598F0271-A13A-4142-8CA4-4B9FAB1A40B8}
+		{4D3B6FDB-F47F-4224-AD5C-1DF2C351196C} = {0712600A-0655-4F71-8F79-423069DA05D5}
+		{0814EE0E-AB84-4919-A698-8EEF0EAF37C7} = {598F0271-A13A-4142-8CA4-4B9FAB1A40B8}
+		{3ACD5389-E3CB-49A9-A7ED-045791CFA8E9} = {598F0271-A13A-4142-8CA4-4B9FAB1A40B8}
+	EndGlobalSection
+EndGlobal
